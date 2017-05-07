@@ -1,8 +1,9 @@
-package ohtu.kivipaperisakset;
+package ohtu.kivipaperisakset.pelimoodit;
 
 import java.util.Scanner;
 
 import java.util.Scanner;
+import ohtu.kivipaperisakset.TekoalyParannettu;
 
 // Kivi-Paperi-Sakset, jossa voidaan valita pelataanko vastustajaa
 // vastaan vai ei

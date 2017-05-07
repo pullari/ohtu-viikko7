@@ -1,6 +1,7 @@
-package ohtu.kivipaperisakset;
+package ohtu.kivipaperisakset.pelimoodit;
 
 import java.util.Scanner;
+import ohtu.kivipaperisakset.Tekoaly;
 
 public class KPSTekoaly extends KPS {
 

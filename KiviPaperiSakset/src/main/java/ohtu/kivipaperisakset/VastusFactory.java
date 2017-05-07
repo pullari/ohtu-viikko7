@@ -5,6 +5,8 @@
  */
 package ohtu.kivipaperisakset;
 
+import ohtu.kivipaperisakset.pelimoodit.*;
+
 /**
  *
  * @author pullis

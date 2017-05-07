@@ -4,8 +4,7 @@
  * and open the template in the editor.
  */
 package ohtu.kivipaperisakset.komennot;
-
-import ohtu.kivipaperisakset.KPSPelaajaVsPelaaja;
+import ohtu.kivipaperisakset.VastusFactory;
 
 /**
  *
@@ -16,8 +15,7 @@ public class pelaajaaVastaan extends Komento {
     @Override
     public void suoritaKomento() {
         System.out.println("peli loppuu kun pelaaja antaa virheellisen siirron eli jonkun muun kuin k, p tai s");
-        KPSPelaajaVsPelaaja kaksinpeli = new KPSPelaajaVsPelaaja();
-        kaksinpeli.pelaa();
+        VastusFactory.getPelaaja().pelaa();
     }
     
 }
